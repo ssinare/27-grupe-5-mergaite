@@ -42,9 +42,34 @@ nav > a {
 }
 nav > a:last-child {
     text-transform: uppercase; 
-    background-color: lightgrey;
     display: inline-block;
     padding-right: 10px;
     padding-left: 10px;
     border-color: #A0A0A0;
+}
+div {
+    display: inline-block; 
+    margin-left: 0; 
+    margin-top: 0; 
+    margin-right: 0; 
+    justify-content: left;
+    width: 50%; 
+}
+main > img {
+    float: right; 
+    width:50%; 
+    margin-top: 0;
+}
+h1 {
+    display: inline-block; 
+    width: 100%; 
+    margin: 0; 
+    font-size: 80px; 
+    margin-top: 10%;
+}
+p {
+    display: inline-block; 
+    margin: 0; 
+    font-size: 20px; 
+    width:100%; 
 }
